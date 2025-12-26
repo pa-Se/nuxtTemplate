@@ -1,0 +1,83 @@
+{
+  "welcome": "Willkommen",
+  "actions": {
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "logout": "Abmelden",
+    "submit": "Senden",
+    "cancel": "Abbrechen",
+    "save": "Speichern"
+  },
+  "components": {
+    "header": {
+      "title": "Neues Projekt"
+    },
+    "footer": {
+      "copyright": "© 2025 Neues Projekt. Alle Rechte vorbehalten."
+    }
+  },
+  "errors": {
+    "generic": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+    "unauthorized": "Sie sind nicht autorisiert, diese Aktion durchzuführen.",
+    "notFound": "Die angeforderte Seite wurde nicht gefunden."
+  },
+  "form": {
+    "email": {
+      "label": "E-Mail",
+      "placeholder": "E-Mail-Adresse",
+      "schema": {
+        "value": "Ungültige E-Mail-Adresse",
+        "required": "Bitte geben Sie Ihre E-Mail-Adresse ein"
+      }
+    },
+    "password": {
+      "label": "Passwort",
+      "placeholder": "••••••••",
+      "schema": {
+        "value": "Bitte Passwort eingeben",
+        "min": "Das Passwort muss über eine Zeichenlänge von >8 verfügen.",
+        "required": "Bitte geben Sie ein Passwort ein"
+      }
+    },
+    "confirmPassword": {
+      "label": "Passwort bestätigen",
+      "schema": {
+        "value": "Die Passwörter stimmen nicht überein"
+      }
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "Willkommen bei Projekt",
+      "subtitle": "Melden Sie sich an, um fortzufahren"
+    },
+    "signup": {
+      "title": "Willkommen bei Projekt",
+      "subtitle": "Erstellen Sie ein Konto, um loszulegen"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "welcomeMessage": "Willkommen zurück, {username}!"
+    }
+  },
+  "toasts": {
+    "success": {
+      "title": "Erfolg",
+      "message": "Aktion erfolgreich ausgeführt"
+    },
+    "error": {
+      "title": "Fehler",
+      "message": "Ein Fehler ist aufgetreten"
+    },
+    "warning": {
+      "title": "Warnung",
+      "message": "Bitte beachten Sie diese Information"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "dashboard": "Dashboard",
+    "profile": "Profil",
+    "settings": "Einstellungen"
+  }
+}
